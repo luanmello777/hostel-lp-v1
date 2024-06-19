@@ -10,16 +10,19 @@
 
             <v-container class="d-flex mt-10" align="center" justify="center">
                 <v-carousel :show-arrows="false" cycle hide-delimiters height="300" class="rounded-lg">
-                    <v-carousel-item cover v-for="(blocoOne, i) in blocoOne" :key="i" :src="blocoOne.src"></v-carousel-item>
+                    <v-carousel-item cover v-for="(blocoOne, i) in blocoOne" :key="i"
+                        :src="blocoOne.src"></v-carousel-item>
                 </v-carousel>
 
                 <v-carousel :show-arrows="false" cycle hide-delimiters height="300" class="rounded-lg ml-2 mr-sm-2">
-                    <v-carousel-item cover v-for="(blocoTwo, i) in blocoTwo" :key="i" :src="blocoTwo.src"></v-carousel-item>
+                    <v-carousel-item cover v-for="(blocoTwo, i) in blocoTwo" :key="i"
+                        :src="blocoTwo.src"></v-carousel-item>
                 </v-carousel>
 
                 <v-carousel :show-arrows="false" cycle hide-delimiters height="300"
                     class="d-none d-sm-block rounded-lg">
-                    <v-carousel-item cover v-for="(blocoThree, i) in blocoThree" :key="i" :src="blocoThree.src"></v-carousel-item>
+                    <v-carousel-item cover v-for="(blocoThree, i) in blocoThree" :key="i"
+                        :src="blocoThree.src"></v-carousel-item>
                 </v-carousel>
             </v-container>
 
@@ -30,8 +33,9 @@
                     <div class="bg-white rounded-lg py-3 px-3" align="left">
                         <v-avatar image="/iconpraia.jpg" size="50" />
                         <h2 class="mt-3 font-weight-bold">Praias</h2>
-                        <p>Estamos localizados apenas<br><span class="font-weight-bold">100m</span> da praia de <span class="font-weight-bold">Ponta Negra</span>.</p>
-        
+                        <p>Estamos localizados apenas<br><span class="font-weight-bold">100m</span> da praia de <span
+                                class="font-weight-bold">Ponta Negra</span>.</p>
+
 
                         <div>
                             <v-btn class="bg-primary mt-6 rounded-pill">Saiba Mais</v-btn>
@@ -44,7 +48,7 @@
                     <div class="bg-white rounded-lg py-3 px-3" align="left">
                         <v-avatar image="/iconsuite.jpg" size="50" />
                         <h2 class="mt-3 font-weight-bold">Acomodações</h2>
-                        <p>Diversas opções de hospedagem para todas as necessidades.<br> Quartos com <span class="font-weight-bold">ventilador</span> ou <br><span class="font-weight-bold">ar-condicionado</span>.</p>
+                        <p>Diversas opções de hospedagem <br>para <span class="font-weight-bold">todas as necessidades</span>.</p>
 
 
                         <div class="d-flex">
@@ -59,8 +63,9 @@
                 <v-col cols="12" lg="4">
                     <div class="bg-white rounded-lg py-3 px-3" align="left">
                         <v-avatar image="/iconexpe.jpg" size="50" />
-                        <h2 class="mt-3 font-weight-bold">Experiências</h2>
-                        <p>Um <span class="font-weight-bold">ambiente acolhedor</span> com experiências únicas e uma conexão autêntica.</p>
+                        <h2 class="mt-3 font-weight-bold">Experiência</h2>
+                        <p>Um <span class="font-weight-bold">ambiente acolhedor</span> com experiências únicas e uma
+                            conexão autêntica.</p>
 
 
                         <div>
@@ -74,22 +79,21 @@
         </div>
 
         <div>
-            <br>
-            <br>
-            <br>
-            <br>
+            <v-container align="center" justify="center">
+                <div style="border: solid 3px #FCC009;" class="rounded-xl pt-5 mt-10 mb-10">
+                    <h5 class="font-weight-light">O <span class="font-weight-bold text-terciary">Soul Hostel</span> é o
+                        hostel mais bem avaliado<br>
+                        de <span class="font-weight-bold text-terciary">Natal/RN</span> na Booking e no Google!</h5>
+
+
+                    <div class="d-flex">
+                        <v-img src="/booking.png" height="110" />
+                        <v-img src="/google.png" height="110" />
+                    </div>
+                </div>
+            </v-container>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 </template>
 
 <style scoped>

@@ -20,6 +20,7 @@ export default createVuetify({
           primary: '#FCC009', // Amarelo
           secondary: '#F3F3F3', // Cinza Claro
           terciary: '#606060', // Cinza Escuro
+          quartiary: '#F7F7F7' // Cor navBar
         },
       },
     },
