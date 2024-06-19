@@ -7,7 +7,7 @@
         <h3 class="font text-white pl-1 font-weight-light"><span class="text-primary">FÉRIAS</span> EM</h3>
         <h1 class="font text-white font-weight-light"><svg-icon class="text-primary" type="mdi" :path="path" />NATAL-RN
         </h1>
-        <h6 class="text-white font-weight-light pl-1" style="font-size: 5.7px; line-height: 16px; ">HOSPEDAGEM <span
+        <h6 class="text-white font-weight-light pl-1" style="font-size: 5px; line-height: 16px; ">HOSPEDAGEM <span
             class="font-weight-bold text-primary">ACONCHEGANTE</span> COM VALORES <span
             class="font-weight-bold text-primary">PROMOCIONAIS</span></h6>
 
