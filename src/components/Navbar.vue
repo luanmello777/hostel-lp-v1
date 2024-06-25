@@ -1,29 +1,16 @@
 <template>
-    <v-app-bar align="center" justify="center" class="bg-quartiary">
-        <div class="d-flex w-100">
-            <v-btn class="ml-2" icon="mdi-menu"></v-btn>
+    <v-app-bar align="center" justify="center" class="bg-quartiary" height="80">
+        <v-btn icon="mdi-menu" size="x-large"></v-btn>
 
+        <v-app-bar-title class="mr-3"><v-img src="/logo.jpg" height="70" class="w-100" /></v-app-bar-title>
 
-            <v-img src="/logo.jpg" height="50" />
-
-
-            <v-btn class="mr-2" icon="mdi-instagram"  />
-        </div>
-
-
-
-
-
-
-
+        <v-btn icon="mdi-instagram" size="x-large" href="https://www.instagram.com/soulhostelnatal_/" target="_blank" />
 
     </v-app-bar>
-
 </template>
 
-<style scoped></style>
-
 <script setup>
+import { useDisplay } from 'vuetify';
 
-
+const { smAndDown } = useDisplay()
 </script>
