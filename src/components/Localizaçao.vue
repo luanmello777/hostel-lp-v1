@@ -1,12 +1,12 @@
 <template>
     <div class="bg-secondary pt-sm-16">
-        <div class="d-flex pt-16 pb-16 px-2 px-sm-4 px-lg-10 mt-sm-4 mt-xl-16" align="center" justify="center">
+        <div class="d-flex pt-16 pb-16 px-2 px-sm-4 px-lg-10 mt-sm-4 mt-xl-16" align="center" justify="center" id="localizaçao">
 
-            <div class="w-100 pt-sm-1 pl-xl-16 ml-lg-4 ml-xl-16" align="left">
-                <h2 class="font text-terciary text-sm-h3 text-md-h1 mt-md-2  d-xl-none">Localização</h2>
-                <h2 class="font text-terciary d-none d-xl-block" style="font-size: 150px;">Localização</h2>
+            <div class="w-100 pt-sm-1 pl-xl-16 ml-lg-4 ml-md-8" align="left">
+                <h2 class="font text-terciary text-sm-h3 text-md-h2 mt-md-16 d-lg-none">Localização</h2>
+                <h2 class="font text-terciary d-none d-lg-block" style="font-size: 100px;">Localização</h2>
 
-                <h6 class="font-weight-light pr-6 pr-sm-8 pr-md-10 pr-lg-16 text-sm-h6 mt-sm-1 mt-lg-8 text-md-h4  d-xl-none"
+                <h6 class="font-weight-light pr-6 pr-sm-8 pr-md-10 pr-lg-16 text-sm-h6 mt-sm-1 mt-md-10 mt-lg-0 text-md-h5 text-lg-h4"
                     align="left" style="font-size: 9px;">
                     O <span class="text-terciary font-weight-bold">Soul Hostel</span> possui uma localização excepcional
                     que encanta os hóspedes. Situado a poucos
@@ -19,17 +19,17 @@
                     O <span class="text-terciary font-weight-bold">Soul Hostel</span> possui uma localização excepcional
                     que encanta os hóspedes. <br class="d-none d-xl-block">Situado a poucos
                     passos da <span class="text-terciary font-weight-bold">Praia de Ponta Negra</span>, oferece fácil acesso às águas do
-                    mar. <br class="d-none d-xl-block">A proximidade conta com uma variedade de restaurantes, bares e lojas que proporcionam uma experiência
+                    mar. A proximidade conta com uma variedade de restaurantes, bares e lojas que proporcionam uma experiência
                     gastronômica e cultural.</h1>
 
 
                 <div class="mt-xl-16">
-                    <v-btn class="bg-primary mt-3 rounded-pill w-75 mt-md-8 mt-xl-16 d-xl-none"
+                    <v-btn class="bg-primary mt-3 rounded-pill w-75 mt-md-8 mt-xl-16 d-lg-none"
                         href="https://maps.app.goo.gl/kN7LXAo414Fpgem6A" target="_blank">
                         <h4>MAPA</h4>
                     </v-btn>
 
-                    <v-btn class="bg-primary mt-3 rounded-pill d-none d-xl-block w-75" size="x-large"
+                    <v-btn class="bg-primary mt-6 rounded-pill d-none d-lg-block w-50" size="x-large"
                         href="https://maps.app.goo.gl/kN7LXAo414Fpgem6A" target="_blank">
                         <h4 class="pt-4">VER NO MAPA</h4>
                     </v-btn>
@@ -51,5 +51,9 @@
 <style scoped>
 .font {
     font-family: "Berkshire Swash", serif;
+}
+
+#localizaçao {
+    scroll-margin-top: 40px;
 }
 </style>
