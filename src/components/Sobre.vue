@@ -289,7 +289,7 @@ const blocoOne = ref([
         src: 'soul.jpg',
     },
     {
-        src: 'praia.jpg',
+        src: 'sala.jpg',
     },
     {
         src: 'localização.jpg',
