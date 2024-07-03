@@ -37,11 +37,11 @@
             </div>
 
             <div class="w-100">
-                <v-img src="/localizaçao.jpg" cover height="210" class="rounded-lg d-sm-none" />
-                <v-img src="/localizaçao.jpg" cover height="400" class="rounded-lg d-none d-sm-block d-md-none" />
-                <v-img src="/localizaçao.jpg" cover height="600"
+                <v-img src="/localizacao.jpg" cover height="210" class="rounded-lg d-sm-none" />
+                <v-img src="/localizacao.jpg" cover height="400" class="rounded-lg d-none d-sm-block d-md-none" />
+                <v-img src="/localizacao.jpg" cover height="600"
                     class="rounded-lg  d-none d-sm-none d-md-block d-xl-none" />
-                <v-img src="/localizaçao.jpg" cover height="850" class="rounded-lg w-75 d-none d-xl-block" />
+                <v-img src="/localizacao.jpg" cover height="850" class="rounded-lg w-75 d-none d-xl-block" />
             </div>
         </div>
     </div>
