@@ -292,10 +292,10 @@ const blocoOne = ref([
         src: 'sala.jpg',
     },
     {
-        src: 'localizaçao.jpg',
+        src: 'varanda.jpg',
     },
     {
-        src: 'varanda.jpg',
+        src: 'escada.jpg',
     },
 ])
 
@@ -320,9 +320,6 @@ const blocoThree = ref([
     },
     {
         src: 'varanda.jpg',
-    },
-    {
-        src: 'escada.jpg',
     },
     {
         src: 'corredor.jpg',
