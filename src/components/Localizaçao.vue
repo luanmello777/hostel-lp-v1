@@ -1,7 +1,6 @@
 <template>
     <div class="bg-secondary pt-sm-16">
-        <div class="d-flex pt-16 pb-16 px-2 px-sm-4 px-lg-10 mt-sm-4 mt-xl-16" align="center" justify="center"
-            id="localizaçao">
+        <div class="d-flex pt-16 pb-16 px-2 px-sm-4 px-lg-10 mt-sm-4 mt-xl-16" align="center" justify="center" id="localizaçao">
 
             <div class="w-100 pt-sm-1 pl-xl-16 ml-lg-4 ml-md-8" align="left">
                 <h2 class="font text-terciary text-sm-h3 text-md-h2 mt-md-16 d-lg-none">Localização</h2>
@@ -11,20 +10,16 @@
                     align="left" style="font-size: 9px;">
                     O <span class="text-terciary font-weight-bold">Soul Hostel</span> possui uma localização excepcional
                     que encanta os hóspedes. Situado a poucos
-                    passos da <span class="text-terciary font-weight-bold">Praia de Ponta Negra</span>, oferece fácil
-                    acesso às águas do
-                    mar. A proximidade conta com uma variedade de restaurantes, bares e lojas que proporcionam uma
-                    experiência
+                    passos da <span class="text-terciary font-weight-bold">Praia de Ponta Negra</span>, oferece fácil acesso às águas do
+                    mar. A proximidade conta com uma variedade de restaurantes, bares e lojas que proporcionam uma experiência
                     gastronômica e cultural.</h6>
 
-                <h1 class="font-weight-light text-terciary pr-16 d-none d-xl-block" align="left"
-                    style="line-height: 65px; font-size: 45px;">
+                <h1 class="font-weight-light text-terciary pr-16 d-none d-xl-block"
+                    align="left" style="line-height: 65px; font-size: 45px;">
                     O <span class="text-terciary font-weight-bold">Soul Hostel</span> possui uma localização excepcional
                     que encanta os hóspedes. <br class="d-none d-xl-block">Situado a poucos
-                    passos da <span class="text-terciary font-weight-bold">Praia de Ponta Negra</span>, oferece fácil
-                    acesso às águas do
-                    mar. A proximidade conta com uma variedade de restaurantes, bares e lojas que proporcionam uma
-                    experiência
+                    passos da <span class="text-terciary font-weight-bold">Praia de Ponta Negra</span>, oferece fácil acesso às águas do
+                    mar. A proximidade conta com uma variedade de restaurantes, bares e lojas que proporcionam uma experiência
                     gastronômica e cultural.</h1>
 
 
@@ -42,7 +37,11 @@
             </div>
 
             <div class="w-100">
-                <v-img src="/localização.jpg" cover class="rounded-lg h-100" />
+                <v-img src="/localizaçao.jpg" cover height="210" class="rounded-lg d-sm-none" />
+                <v-img src="/localizaçao.jpg" cover height="400" class="rounded-lg d-none d-sm-block d-md-none" />
+                <v-img src="/localizaçao.jpg" cover height="600"
+                    class="rounded-lg  d-none d-sm-none d-md-block d-xl-none" />
+                <v-img src="/localizaçao.jpg" cover height="850" class="rounded-lg w-75 d-none d-xl-block" />
             </div>
         </div>
     </div>

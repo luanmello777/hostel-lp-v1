@@ -292,7 +292,7 @@ const blocoOne = ref([
         src: 'sala.jpg',
     },
     {
-        src: 'localização.jpg',
+        src: 'localizaçao.jpg',
     },
     {
         src: 'varanda.jpg',
