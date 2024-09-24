@@ -50,13 +50,13 @@
                 </h3>
 
                 <div class="mt-3 mt-sm-5 mt-lg-16 w-100">
-                    <v-btn class="bg-green rounded-pill w-75 w-sm-50 d-lg-none" href="https://api.whatsapp.com/send/?phone=558499900268&text=Ol%C3%A1%21%20Estou%20vindo%20do%20Google%20e%20gostaria%20de%20valores%20e%20op%C3%A7%C3%B5es%20de%20reservas%21"
+                    <v-btn class="bg-green rounded-pill w-75 w-sm-50 d-lg-none" href="https://api.whatsapp.com/send?phone=558499900268&text=Ol%C3%A1%21%20Estou%20vindo%20do%20Google%20e%20gostaria%20de%20valores%20e%20op%C3%A7%C3%B5es%20de%20reservas%21"
                         target="_blank">
                         <h4>Whatsapp</h4>
                     </v-btn>
 
                     <v-btn class="bg-green rounded-pill w-50 d-none d-lg-block" size="x-large" height="60"
-                        href="https://api.whatsapp.com/send/?phone=558499900268&text=Ol%C3%A1%21%20Estou%20vindo%20do%20Google%20e%20gostaria%20de%20valores%20e%20op%C3%A7%C3%B5es%20de%20reservas%21" target="_blank">
+                        href="https://api.whatsapp.com/send?phone=558499900268&text=Ol%C3%A1%21%20Estou%20vindo%20do%20Google%20e%20gostaria%20de%20valores%20e%20op%C3%A7%C3%B5es%20de%20reservas%21" target="_blank">
                         <h4 class="pt-5">Whatsapp</h4>
                     </v-btn>
                     <br>
